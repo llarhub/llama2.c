@@ -9,6 +9,9 @@
 *.dylib
 
 *.txt
+!requirements.txt
+stories*.bin
+err.log
 .DS_Store
 _out/
 
@@ -26,8 +29,7 @@ profile.cov
 # vendor/
 
 # Go workspace file
-go.work
-go.work.sum
+go.work*
 
 # env file
 .env
